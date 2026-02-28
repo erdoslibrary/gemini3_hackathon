@@ -1,0 +1,42 @@
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Antigravity/Gemini (If any local logs or tmp files are generated)
+/tmp/
+.gemini/
+
+# Flutter/Dart (For the ai_bird sub-directory)
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+/ai_bird/.dart_tool/
+/ai_bird/.packages
+/ai_bird/build/
+/ai_bird/.pub-cache/
+/ai_bird/.pub/
+
+# Android/iOS specific ignores (standard flutter ignores)
+**/android/app/src/main/res/values/secrets.xml
+**/android/local.properties
+**/android/key.properties
+**/*.jks
+**/*.keystore
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.podspec
+
+# Web
+**/web/index.html (If generated and shouldn't be tracked)
+
+# Environment variables
+.env
+.env.*
+
+# Miscellaneous
+*.log
